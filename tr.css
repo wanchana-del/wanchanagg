@@ -1,0 +1,63 @@
+body {
+  font-family: 'Sarabun', sans-serif;
+  background-color: #ebc6c6;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2b705;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+  th, td {
+    padding: 10px;
+  }
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  margin: 0 5px;
+  font-size: 16px;
+  color: #f2b705;
+  text-decoration: none;
+}
+
+.pagination .active {
+  font-weight: bold;
+  color: #333;
+}
