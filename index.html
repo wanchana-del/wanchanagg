@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>รายการอาหาร (Food List)</title>
+  <link rel="stylesheet" href="tr.css"> <!-- เชื่อมไฟล์ CSS -->
+</head>
+<body>
+  <!-- หัวข้อหลัก -->
+  <h1>รายการอาหาร (Food List)</h1>
+
+  <!-- หัวข้อย่อยสำหรับเมนูแนะนำ -->
+  <h2 id="page-title">เมนูแนะนำ (Recommended Menu)</h2>
+
+  <!-- เมนูจะแสดงผลในส่วนนี้ -->
+  <div id="menu-list">
+    <!-- เนื้อหาจะโหลดที่นี่ -->
+  </div>
+
+  <!-- Pagination Links -->
+  <div class="pagination">
+    <a href="javascript:void(0)" onclick="loadPage(1)" class="active">1</a>
+    <a href="javascript:void(0)" onclick="loadPage(2)">2</a>
+    <a href="javascript:void(0)" onclick="loadPage(3)">3</a>
+  </div>
+
+  <!-- เชื่อมไฟล์ JS -->
+  <script src="j.js"></script>
+</body>
+</html>
